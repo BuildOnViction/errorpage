@@ -1,0 +1,119 @@
+/* ===================================================================
+CSS information
+
+ file name  : common.css
+ author     : VietIQ
+ style info : VietIQ
+=================================================================== */
+/* -----------------------------------------------------------
+	body
+----------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/homepage\.scss}line{font-family:\0000314}}
+body {
+  background-color: #242828;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* -----------------------------------------------------------
+	#header
+----------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/homepage\.scss}line{font-family:\0000324}}
+#header {
+  width: 100%;
+  padding: 30px 15px;
+  position: absolute;
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/homepage\.scss}line{font-family:\0000329}}
+#header img {
+  height: 50px;
+}
+@media only screen and (min-width: 1025px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/homepage\.scss}line{font-family:\0000324}}
+  #header {
+    padding: 50px 15px 0;
+  }
+}
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/homepage\.scss}line{font-family:\0000324}}
+  #header {
+    padding: 50px 15px 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/_settings\.scss}line{font-family:\0000316}}
+.ie8 #header {
+  padding: 50px 15px 0;
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/homepage\.scss}line{font-family:\0000324}}
+  #header {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/homepage\.scss}line{font-family:\0000337}}
+  #header img {
+    height: 40px;
+  }
+}
+
+/* -----------------------------------------------------------
+	#contents
+----------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/homepage\.scss}line{font-family:\0000345}}
+#contents {
+  width: 100%;
+}
+
+/* -----------------------------------------------------------
+	#footer
+----------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/homepage\.scss}line{font-family:\0000352}}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+}
+
+/* -----------------------------------------------------------
+	.txt-links
+----------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/homepage\.scss}line{font-family:\0000363}}
+.txt-links {
+  margin-left: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/homepage\.scss}line{font-family:\0000372}}
+.txt-links .txt-links__items {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/homepage\.scss}line{font-family:\0000378}}
+.tomochain-txt .txt-links .txt-links__items {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/homepage\.scss}line{font-family:\0000383}}
+.tomochain-txt .txt-links a {
+  color: #00E8B5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/homepage\.scss}line{font-family:\0000385}}
+.tomochain-txt .txt-links a:hover {
+  color: #ffffff;
+}

@@ -1,0 +1,272 @@
+/* ===================================================================
+CSS information
+
+ file name  : common.css
+ author     : TomoChain
+ style info : 404
+=================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/_settings\.scss}line{font-family:\0000392}}
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+@media only screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/_settings\.scss}line{font-family:\0000392}}
+  .container {
+    width: 95%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/_settings\.scss}line{font-family:\00003102}}
+.clearfix:after, .container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* -----------------------------------------------------------
+	Basic setting, link color etc.
+----------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000314}}
+html {
+  font-size: small;
+  line-height: 1.5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000318}}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  background: #fff;
+  -webkit-text-size-adjust: none;
+  font-size: 124%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000325}}
+.ie body {
+  font-size: 120%;
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000318}}
+  body {
+    font-size: 116%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000329}}
+body a {
+  color: #4d4d4d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000331}}
+body a:link, body a:visited, body a:active {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000336}}
+.mouse body a:hover, .touch body a.touchstart {
+  text-decoration: none;
+  color: #666666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000342}}
+body img {
+  max-width: 100%;
+  -webkit-touch-callout: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000347}}
+body, pre, input, textarea, select {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000350}}
+input, select, textarea {
+  font-size: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000356}}
+html.ie8 .view_tab,
+html.ie8 .view_tab_sp,
+html.ie8 .view_sp {
+  display: none !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000361}}
+html.ie8 #page {
+  min-width: 1100px !important;
+  margin: auto;
+  font-size: 100% !important;
+}
+
+@media only screen and (min-width: 1025px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000371}}
+  body .view_tab-sp, body .view_tab {
+    display: none !important;
+  }
+}
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000371}}
+  body .view_tab-sp, body .view_tab {
+    display: none !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000371}}
+.ie8 body .view_tab-sp, .ie8 body .view_tab {
+  display: none !important;
+}
+@media only screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000374}}
+  body .view_sp {
+    display: none !important;
+  }
+}
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000374}}
+  body .view_sp {
+    display: none !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000374}}
+.ie8 body .view_sp {
+  display: none !important;
+}
+@media only screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000377}}
+  body .view_pc {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000380}}
+  body .view_pc-tab, body .view_tab {
+    display: none !important;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000386}}
+.mouse .over {
+  -webkit-transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease-in;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/_settings\.scss}line{font-family:\00003162}}
+.mouse .over:hover, .touch .over.touchstart {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/_settings\.scss}line{font-family:\00003166}}
+.touch .over {
+  -webkit-tap-highlight-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/_settings\.scss}line{font-family:\00003168}}
+.touch .over.touchend {
+  -webkit-transition-delay: 200ms;
+  transition-delay: 200ms;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\0000399}}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\00003105}}
+button, button:focus, button:active, button:hover, button:visited,
+a, a:focus, a:active, a:hover, a:visited {
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\00003109}}
+ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+/* ----------
+clearfix
+---------- */
+/* ----------
+container
+---------- */
+/* ----------
+Title
+---------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\00003131}}
+.title_basic_tmp1 {
+  margin: 0 0 0.5em;
+  font-size: 288%;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 15px;
+  position: relative;
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\00003131}}
+  .title_basic_tmp1 {
+    margin: 0 0 0.5em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\00003131}}
+  .title_basic_tmp1 {
+    font-size: 225%;
+  }
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\00003131}}
+  .title_basic_tmp1 {
+    font-size: 188%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\00003131}}
+  .title_basic_tmp1 {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\00003140}}
+  .title_basic_tmp1:before {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\00003147}}
+.title_sub_tmp1 {
+  color: #FFFFFF;
+  font-size: 138%;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\00003147}}
+  .title_sub_tmp1 {
+    font-size: 138%;
+  }
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\00003147}}
+  .title_sub_tmp1 {
+    font-size: 113%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\00003147}}
+  .title_sub_tmp1 {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\00003152}}
+  .title_sub_tmp1 br {
+    display: none;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\00003158}}
+.txt-blue {
+  color: #00E8B5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\00003162}}
+.text-center {
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bongjun\/Desktop\/GitHub\/page-404\/scss\/common\.scss}line{font-family:\00003166}}
+.main_title {
+  margin-top: 50px;
+}

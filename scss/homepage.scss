@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* ===================================================================
+CSS information
+
+ file name  : common.css
+ author     : VietIQ
+ style info : VietIQ
+=================================================================== */
+@import "settings";
+
+/* -----------------------------------------------------------
+	body
+----------------------------------------------------------- */
+body {
+	background-color: #242828;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+/* -----------------------------------------------------------
+	#header
+----------------------------------------------------------- */
+#header {
+	width: 100%;
+	padding: 30px 15px;
+	position: absolute;
+	top: 0;
+	img {
+		height: 50px;
+	}
+	@include mq(pc) {
+		padding: 50px 15px 0;
+	}
+	@include mq(sp) {
+		text-align: center;
+		img {
+			height: 40px;
+		}
+	}
+}
+/* -----------------------------------------------------------
+	#contents
+----------------------------------------------------------- */
+#contents {
+	width: 100%;
+}
+
+/* -----------------------------------------------------------
+	#footer
+----------------------------------------------------------- */
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	text-align: center;
+}
+
+/* -----------------------------------------------------------
+	.txt-links
+----------------------------------------------------------- */
+.txt-links {
+	margin-left: 0;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	.txt-links__items {
+		color: #ffffff;
+		margin-bottom: 15px;
+	}
+
+	.tomochain-txt & {
+		.txt-links__items {
+			margin-right: 25px;
+			margin-left: 25px;
+		}
+
+		a {
+			color: #00E8B5;
+			&:hover {
+				color: #ffffff;
+			}
+		}
+	}
+}
